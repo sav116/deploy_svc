@@ -1,4 +1,5 @@
 # Playing with github actions
+![tests](https://github.com/sav116/deploy_svc/actions/workflows/test_on_push.yaml/badge.svg)
 ## 0. Why
 Пробуем создвть свой CI/CD пайплайн для домашнего проекта при помощи Python и GitHub Actions<br/>
 
