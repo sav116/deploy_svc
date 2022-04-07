@@ -1,0 +1,12 @@
+[Unit]
+Description=Deployment web server
+After=network-online.target
+
+[Service]
+Type=simple
+RestartSec=3
+ExecStart=/usr/local/bin/deploy_svc
+Environment=CI_TOKEN=..# Write your token
+
+[Install]
+WantedBy=multi-user.target
