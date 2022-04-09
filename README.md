@@ -1,12 +1,12 @@
 # Playing with github actions
 ![tests](https://github.com/sav116/deploy_svc/actions/workflows/test_on_push.yaml/badge.svg)
 ## 0. Why
-Пробуем создвть свой CI/CD пайплайн для домашнего проекта при помощи Python и GitHub Actions<br/>
+Пробуем создать свой CI/CD пайплайн для домашнего проекта при помощи Python и GitHub Actions<br/>
 
 
 ## 1. Requirements
 Для запуска этого проекта потребуется:
-- VPS/VDS/VM с *nix ОС, куда будут деплоится контейнеры (проверено на Ubuntu Server 18.04)
+- VPS/VDS/VM с *nix ОС, куда будут деплоиться контейнеры (проверено на Ubuntu Server 18.04)
 - Белый IP адрес (проброшеный порт, иной способ получения веб хука)
 - Python 3.8
 - Docker
